@@ -4,6 +4,7 @@ import React from 'react';
 import Counter from './Counter';
 import List from './List';
 import Form from './Form';
+import Fetch from './Fetch';
 class App extends React.Component{
   render(){
     return(
@@ -17,6 +18,8 @@ class App extends React.Component{
         <List/>;
         {/*exercice Form*/}
         <Form />
+        {/*exercice Fetch*/}
+        <Fetch />
       </div>
     )
   }
