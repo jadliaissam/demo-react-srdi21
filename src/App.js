@@ -6,10 +6,14 @@ import List from './List';
 import Form from './Form';
 import Fetch from './Fetch';
 import Feed from './Feed';
+import UserList from './UserList'
 class App extends React.Component{
   render(){
     return(
       <div>
+
+        <UserList />
+
         {/* Exercice Props, State, default Props */}
         <Counter start={2} />
 
@@ -23,6 +27,7 @@ class App extends React.Component{
         <Fetch />
         {/*exercice Feed*/}
         <Feed />
+      
       </div>
     )
   }
