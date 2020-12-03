@@ -6,12 +6,13 @@ import List from './List';
 import Form from './Form';
 import Fetch from './Fetch';
 import Feed from './Feed';
+import CompA from './Ref';
 import UserList from './UserList'
 class App extends React.Component{
   render(){
     return(
       <div>
-
+        <CompA /> 
         <UserList />
 
         {/* Exercice Props, State, default Props */}

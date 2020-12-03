@@ -41,7 +41,7 @@ class UserList extends React.Component {
     }
     render() {
         return <div>
-            {this.state.error.isLoading}
+            {this.state.isLoading}
             {this.state.isLoading ? "Chargement en cours" : this.state.data.map(user => <User user={user} />)}
         </div>
     }
